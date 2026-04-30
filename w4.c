@@ -4,12 +4,11 @@ int main()
     int a, b, c;
     int total_players, remaining_players;
 
-    printf("Enter the number of players in each team:\n");
-    printf("Team A: ");
+    printf("Enter the number of students in the class: ");
     scanf("%d", &a);
-    printf("Team B: ");
+    printf("Enter the number of baseball teams: ");
     scanf("%d", &b);
-    printf("Team C: ");
+    printf("Enter the number of volleyball teams: ");
     scanf("%d", &c);
     total_players = (9 * b) + (6 * c);
     remaining_players = a - total_players;
