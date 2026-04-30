@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int t_a, t_b, t_c;
+    int a, b, c;
     int total_players, remaining_players;
 
     printf("Enter the number of players in each team:\n");
     printf("Team A: ");
-    scanf("%d", &t_a);      
+    scanf("%d", &a);
     printf("Team B: ");
-    scanf("%d", &t_b);
+    scanf("%d", &b);
     printf("Team C: ");
-    scanf("%d", &t_c);
-    total_players = (9 * t_b) + (6 * t_c);
-    remaining_players = t_a - total_players;
+    scanf("%d", &c);
+    total_players = (9 * b) + (6 * c);
+    remaining_players = a - total_players;
     printf("Total players: %d\n", total_players);
     printf("Remaining players after one is removed: %d\n", remaining_players);
     
-
+    return 0;
 }
