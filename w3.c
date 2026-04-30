@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int apple = 100, orange = 88, strawberry = 398;
